@@ -1,14 +1,18 @@
-number1 = input()
+number1 = int(input())
 operator = input()
-number2 = input()
+number2 = int(input())
 result = 0
 if operator == '+':
-    print(number1 + number2);
+    result = number1 + number2
+    print(result);
 elif operator == '-':
-    print(number1 - number2);
+    result = number1 - number2
+    print(result);
 elif operator == '/':
-    print(number1 / number2);
+    result = number1 / number2
+    print(result);
 elif operator == '*':
-    print(number1 * number2);
+    result = number1 * number2
+    print(result);
 else:
     print('Операция не поддерживается')
