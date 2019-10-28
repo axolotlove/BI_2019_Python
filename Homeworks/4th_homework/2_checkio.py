@@ -24,5 +24,5 @@ def group_equal(els):
     return result
 
 
-els = [str(i) for i in input().split(',')]
-print(group_equal(els))
+elements = [str(i) for i in input().split(',')]
+print(group_equal(elements))

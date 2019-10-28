@@ -11,8 +11,7 @@ def checkio(first, second):
     string_result = ','.join(map(str, result))
     return string_result
 
-first = input()
-second = input()
-print(repr(checkio(first, second)))
 
-
+first_word = input()
+second_word = input()
+print(repr(checkio(first_word, second_word)))

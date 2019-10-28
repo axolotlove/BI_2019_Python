@@ -24,5 +24,5 @@ def create_intervals(data):
     return result_list
 
 
-data = {int(i) for i in input().split(',')}
-print(create_intervals(data))
+raw_intervals = {int(i) for i in input().split(',')}
+print(create_intervals(raw_intervals))
